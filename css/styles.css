@@ -1,0 +1,499 @@
+/*  BASE STYLES */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-color: #02897a;
+  --main-color: #22343d;
+}
+body {
+  font-family: "Poppins";
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+svg {
+  height: 32px;
+  width: 32px;
+}
+
+/*  BASE STYLES */
+
+/* header */
+
+header a {
+  color: var(--main-color);
+}
+.product-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 93%;
+  color: #173a56;
+}
+
+.nav-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.btn-signin-header {
+  background-color: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+.btn-signup-header {
+  background-color: var(--accent-color);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+/* header */
+
+/* SECTION HERO */
+
+.title-hero {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+.text-hero {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+}
+
+.btn-getstart {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+.link-watchtvid {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* SECTION HERO */
+
+/* section For You */
+
+.title-for-you {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.title-of-featur {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.text-of-feature {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.btn-signup-foryou {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+/* section Management */
+
+.title-management {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--main-color);
+}
+
+.text-management {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  color: var(--main-color);
+}
+
+.text-support {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--main-color);
+}
+
+.sbtitle-support {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.scnd-text-support {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+.point-text-support {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.text-collaborative {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title-collaborative {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.scnd-text-collaborative {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.sbtitle-collaborative {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.point-text-collaborative {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+/* section Easy Process */
+
+.title-easy-process {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+}
+
+.easy-process {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+}
+
+.point-text-process {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.btn-contact-expert {
+  width: 216px;
+  height: 53px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+/* section Strategies */
+
+.title-strategies {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.text-strategies {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.point-text-strategies {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.name-accent {
+  font-weight: 700;
+}
+
+.sbttitle-strategies {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+/* section Price */
+
+.title-price {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+.text-price {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.title-card {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+.text-card {
+  font-family: "Monserrat" sans-serif;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 250%;
+}
+
+.price-number-card {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 132%;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.dollar-sign {
+  font-family: "Inter";
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0em;
+}
+
+.month {
+  font-family: "Monserrat" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.explain-price-items {
+  color: var(--main-color);
+  font-family: "Monserrat" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  letter-spacing: 0.01em;
+}
+
+.btn-price-order-now {
+  font-family: "Monserrat" sans-serif;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: var(--accent-color);
+}
+
+/* SLIENTS SAY */
+
+.title-cliets-say-sectoin {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 178%;
+  letter-spacing: 0.01em;
+}
+
+.text-cliets-say-section {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.text-comment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.user-name {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.profession {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+/* JOIN HUNDRED */
+
+.card-join-100-section {
+  border-radius: 32px;
+}
+
+.title-join-100-section {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151%;
+  color: #fff;
+}
+
+.card-join-100-section {
+  background-color: var(--accent-color);
+}
+
+.btn-get-this {
+  height: 50px;
+  width: 150px;
+  background-color: #fff;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+footer a {
+  color: var(--main-color);
+}
+.bottom-nav-title {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.bottom-nav-list {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 219%;
+}
+
+.bottom-nav-title-second {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.bottom-nav-list-second {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 219%;
+}
+
+.bottom-text-deal {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+/* form input {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  background-color: #fff;
+} */
+
+.btn-bottom-sign-up {
+  border-radius: 4px;
+  width: 131px;
+  height: 39px;
+  color: #fff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.end-text {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187%;
+}
