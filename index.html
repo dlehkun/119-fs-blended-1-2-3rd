@@ -18,118 +18,130 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="./index.html" class="product-logo">
-        <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
-        Product
-      </a>
-
-      <nav class="nav header-nav">
-        <ul class="nav-list">
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+      <div class="container header-container">
+        <a href="./index.html" class="product-logo">
+          <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
+          Product
+        </a>
+        <nav class="nav header-nav">
+          <ul class="nav-list">
+            <li><a href="./index.html">Product</a></li>
+            <li><a href="./pricing.html">Pricing</a></li>
+            <li><a href="./customers.html">Customers</a></li>
+            <li><a href="">Resources</a></li>
+          </ul>
+        </nav>
+        <ul>
+          <li>
+            <button type="button" class="btn btn-signin-header">Sign In</button>
+          </li>
+          <li>
+            <button type="button" class="btn btn-signup-header">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-
-      <ul>
-        <li>
-          <button type="button" class="btn btn-signin-header">Sign In</button>
-        </li>
-        <li>
-          <button type="button" class="btn btn-signup-header">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!-- #region SECTION HERO -->
       <section class="section section-hero">
-        <h1 class="title title-hero">Work at the speed of thought</h1>
-        <p class="text text-hero">
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-
-        <button type="button" class="btn btn-getstart">Get started</button>
-
-        <svg width="18" height="20"></svg>
-        <a
-          href="https://www.youtube.com/watch?v=y0sF5xhGreA"
-          class="link-watchtvid"
-          >Watch the Video</a
-        >
-
-        <img
-          src="./images/hero-img.svg"
-          alt="hero-img"
-          width="610"
-          height="555"
-        />
+        <div class="container">
+          <h1 class="title title-hero">Work at the speed of thought</h1>
+          <p class="text text-hero">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <button type="button" class="btn btn-getstart">Get started</button>
+          <svg width="18" height="20"></svg>
+          <a
+            href="https://www.youtube.com/watch?v=y0sF5xhGreA"
+            class="link-watchtvid"
+            >Watch the Video</a
+          >
+          <img
+            src="./images/hero-img.svg"
+            alt="hero-img"
+            width="610"
+            height="555"
+          />
+        </div>
       </section>
 
       <!-- #endregion SECTION HERO -->
 
       <!-- #region For You -->
       <section>
-        <h2 class="section-title title-for-you">
-          Product was Built Specifically for You
-        </h2>
-        <ul>
-          <li>
-            <img
-              src="./images/icon-1.svg"
-              alt="icon of first click test"
-              width="54"
-              height="54"
-            />
-            <h3 class="title title-of-featur">First click tests</h3>
-            <p class="text text-of-feature">
-              While most people enjoy casino gambling,
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/icon-2.svg"
-              alt="icon of design surveys"
-              width="54"
-              height="54"
-            />
-            <h3 class="title title-of-featur">Design surveys</h3>
-            <p class="text text-of-feature">
-              Sports betting, lottery and bingo playing for the fun
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/icon-3.svg"
-              alt="icon of prefercence test"
-              width="54"
-              height="54"
-            />
-            <h3 class="title title-of-featur">Preference tests</h3>
-            <p class="text text-of-feature">
-              The Myspace page defines the individual.
-            </p>
-          </li>
-          <li>
-            <img
-              src="./images/icon-4.svg"
-              alt="icon of five second test"
-              width="54"
-              height="54"
-            />
-            <h3 class="title title-of-featur">Five second tests</h3>
-            <p class="text text-of-feature">
-              Personal choices and the overall personality of the person.
-            </p>
-          </li>
-        </ul>
-        <button type="button" class="btn btn-signup-foryou">sign up now</button>
+        <div class="container">
+          <h2 class="section-title title-for-you">
+            Product was Built Specifically for You
+          </h2>
+          <div>
+            <ul>
+              <li>
+                <img
+                  src="./images/icon-1.svg"
+                  alt="icon of first click test"
+                  width="54"
+                  height="54"
+                />
+                <h3 class="title title-of-featur">First click tests</h3>
+                <p class="text text-of-feature">
+                  While most people enjoy casino gambling,
+                </p>
+              </li>
+              <li>
+                <img
+                  src="./images/icon-2.svg"
+                  alt="icon of design surveys"
+                  width="54"
+                  height="54"
+                />
+                <h3 class="title title-of-featur">Design surveys</h3>
+                <p class="text text-of-feature">
+                  Sports betting, lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li>
+                <img
+                  src="./images/icon-3.svg"
+                  alt="icon of prefercence test"
+                  width="54"
+                  height="54"
+                />
+                <h3 class="title title-of-featur">Preference tests</h3>
+                <p class="text text-of-feature">
+                  The Myspace page defines the individual.
+                </p>
+              </li>
+              <li>
+                <img
+                  src="./images/icon-4.svg"
+                  alt="icon of five second test"
+                  width="54"
+                  height="54"
+                />
+                <h3 class="title title-of-featur">Five second tests</h3>
+                <p class="text text-of-feature">
+                  Personal choices and the overall personality of the person.
+                </p>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-signup-foryou">
+              sign up now
+            </button>
+          </div>
+        </div>
       </section>
 
       <!-- #endregion For You -->
@@ -137,119 +149,123 @@
       <!-- #region Management -->
 
       <section class="management-section">
-        <h2 hidden>Management</h2>
-        <div>
-          <h3 class="title title-management">Management</h3>
-          <h4 class="subtitle sbtitle-management">Effortless Validation for</h4>
-          <p class="text text-management">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-
-          <ul>
-            <li>
-              <h3 class="subtitle sbtitle-management">Accessory makers</h3>
-              <p class="text text-management">
-                While most people enjoy casino gambling, sports betting, lottery
-                and bingo playing for the fun
-              </p>
-            </li>
-            <li>
-              <h3 class="subtitle sbtitle-management">Alterationists</h3>
-              <p class="text text-management">
-                If you are looking for a new way to promote your business that
-                won't cost you more money,
-              </p>
-            </li>
-          </ul>
-
-          <img
-            src="./images/management-img.svg"
-            alt="files-and-folders"
-            width="540"
-            height="500"
-          />
-        </div>
-        <div>
-          <p class="text text-support">Easier decision making for</p>
-          <h3 class="title title-support">Customer Support</h3>
-          <p class="text scnd-text-support">
-            The Myspace page defines the individual, his or her characteristics,
-            traits, personal choices and the overall personality of the person.
-          </p>
-          <ul>
-            <li>
-              <img
-                src="./images/checkmark-yellow.svg"
-                alt="checkmark-yellow"
-                width="35"
-                height="35"
-              />
-              <p class="text point-text-support">
-                Never worry about overpaying for your energy again.
-              </p>
-            </li>
-            <li>
-              <img
-                src="./images/checkmark-red.svg"
-                alt="checkmark-red"
-                width="35"
-                height="35"
-              />
-              <p class="text point-text-support">
-                We will only switch you to energy companies that we trust and
-                will treat you right
-              </p>
-            </li>
-            <li>
-              <img
-                src="./images/checkmark-blue.svg"
-                alt="checkmark-blue"
-                width="35"
-                height="35"
-              />
-              <p class="text point-text-support">
-                We track the markets daily and know where the savings are.
-              </p>
-            </li>
-          </ul>
-          <img
-            src="./images/support-img.svg"
-            alt="finding-something-on-computer"
-            width="540"
-            height="500"
-          />
-        </div>
-        <div>
-          <p class="text text-collaborative">Optimisation for</p>
-          <h3 class="title title-collaborative">Collaborative</h3>
-          <p class="text scnd-text-collaborative">
-            Few would argue that, despite the advancements of feminism over the
-            past three decades, women still face a double standard when it comes
-            to their behavior.
-          </p>
-          <ul>
-            <li>
-              <h4 class="subtitle sbtitle-collaborative">Accessory makers</h4>
-              <p class="text point-text-collaborative">
-                While most people enjoy casino gambling, sports betting, lottery
-                and bingo playing for the fun
-              </p>
-            </li>
-            <li>
-              <h4 class="subtitle sbtitle-collaborative">Alterationists</h4>
-              <p class="text point-text-collaborative">
-                If you are looking for a new way to promote your business that
-                won't cost you more money,
-              </p>
-            </li>
-          </ul>
-          <img
-            src="./images/collaboration-img.svg"
-            alt="image-files-folder"
-            width="540"
-            height="500"
-          />
+        <div class="container">
+          <h2 hidden>Management</h2>
+          <div>
+            <h3 class="title title-management">Management</h3>
+            <h4 class="subtitle sbtitle-management">
+              Effortless Validation for
+            </h4>
+            <p class="text text-management">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+            <ul>
+              <li>
+                <h3 class="subtitle sbtitle-management">Accessory makers</h3>
+                <p class="text text-management">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li>
+                <h3 class="subtitle sbtitle-management">Alterationists</h3>
+                <p class="text text-management">
+                  If you are looking for a new way to promote your business that
+                  won't cost you more money,
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/management-img.svg"
+              alt="files-and-folders"
+              width="540"
+              height="500"
+            />
+          </div>
+          <div>
+            <p class="text text-support">Easier decision making for</p>
+            <h3 class="title title-support">Customer Support</h3>
+            <p class="text scnd-text-support">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+            <ul>
+              <li>
+                <img
+                  src="./images/checkmark-yellow.svg"
+                  alt="checkmark-yellow"
+                  width="35"
+                  height="35"
+                />
+                <p class="text point-text-support">
+                  Never worry about overpaying for your energy again.
+                </p>
+              </li>
+              <li>
+                <img
+                  src="./images/checkmark-red.svg"
+                  alt="checkmark-red"
+                  width="35"
+                  height="35"
+                />
+                <p class="text point-text-support">
+                  We will only switch you to energy companies that we trust and
+                  will treat you right
+                </p>
+              </li>
+              <li>
+                <img
+                  src="./images/checkmark-blue.svg"
+                  alt="checkmark-blue"
+                  width="35"
+                  height="35"
+                />
+                <p class="text point-text-support">
+                  We track the markets daily and know where the savings are.
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/support-img.svg"
+              alt="finding-something-on-computer"
+              width="540"
+              height="500"
+            />
+          </div>
+          <div>
+            <p class="text text-collaborative">Optimisation for</p>
+            <h3 class="title title-collaborative">Collaborative</h3>
+            <p class="text scnd-text-collaborative">
+              Few would argue that, despite the advancements of feminism over
+              the past three decades, women still face a double standard when it
+              comes to their behavior.
+            </p>
+            <ul>
+              <li>
+                <h4 class="subtitle sbtitle-collaborative">Accessory makers</h4>
+                <p class="text point-text-collaborative">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li>
+                <h4 class="subtitle sbtitle-collaborative">Alterationists</h4>
+                <p class="text point-text-collaborative">
+                  If you are looking for a new way to promote your business that
+                  won't cost you more money,
+                </p>
+              </li>
+            </ul>
+            <img
+              src="./images/collaboration-img.svg"
+              alt="image-files-folder"
+              width="540"
+              height="500"
+            />
+          </div>
         </div>
       </section>
 
@@ -258,52 +274,60 @@
       <!-- #region Easy Process -->
 
       <section class="easy-process-sectoion">
-        <h2 class="section-title title-easy-process">Quick & Easy Process</h2>
-        <p class="text text-easy-process">
-          Do you require some help for your project: Conception workshop,
-          prototyping, marketing strategy, landing page, Ux/UI?
-        </p>
-        <ul>
-          <li>
-            <p class="text point-text-process">I can take care of your pitch</p>
-            <img
-              src="./images/young-lady.jpg"
-              alt="young lady"
-              width="98"
-              height="98"
-            />
-          </li>
-          <li>
-            <p class="text point-text-process">I can prototype your app</p>
-            <img
-              src="./images/boy-camera.jpg"
-              alt="boy with a camera"
-              width="98"
-              height="98"
-            />
-          </li>
-          <li>
-            <p class="text point-text-process">I can take care of your pitch</p>
-            <img
-              src="./images/old-man.jpg"
-              alt="old man"
-              width="98"
-              height="98"
-            />
-          </li>
-          <li>
-            <p class="text point-text-process">I can help marketing strategy</p>
-            <img
-              src="./images/granny.jpg"
-              alt="granny"
-              width="98"
-              height="98"
-            />
-          </li>
-        </ul>
-        <button type="button" class="btn btn-contact-expert">
-          Contact our expert
-        </button>
+        <div class="container">
+          <h2 class="section-title title-easy-process">Quick & Easy Process</h2>
+          <p class="text text-easy-process">
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+          </p>
+          <ul>
+            <li>
+              <p class="text point-text-process">
+                I can take care of your pitch
+              </p>
+              <img
+                src="./images/young-lady.jpg"
+                alt="young lady"
+                width="98"
+                height="98"
+              />
+            </li>
+            <li>
+              <p class="text point-text-process">I can prototype your app</p>
+              <img
+                src="./images/boy-camera.jpg"
+                alt="boy with a camera"
+                width="98"
+                height="98"
+              />
+            </li>
+            <li>
+              <p class="text point-text-process">
+                I can take care of your pitch
+              </p>
+              <img
+                src="./images/old-man.jpg"
+                alt="old man"
+                width="98"
+                height="98"
+              />
+            </li>
+            <li>
+              <p class="text point-text-process">
+                I can help marketing strategy
+              </p>
+              <img
+                src="./images/granny.jpg"
+                alt="granny"
+                width="98"
+                height="98"
+              />
+            </li>
+          </ul>
+          <button type="button" class="btn btn-contact-expert">
+            Contact our expert
+          </button>
+        </div>
       </section>
 
       <!-- #endregion Easy Process -->
@@ -311,57 +335,57 @@
       <!-- #region Strategies -->
 
       <section class="section section-strategies">
-        <h2 class="section-title title-strategies">Contents Strategies</h2>
-        <p class="text text-strategies">
-          We focus on ergonomics and meeting you where you work. It's only a
-          keystroke away.
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/papers-laptops.jpg"
-              alt="working-process"
-              width="350"
-              height="185"
-            />
-            <p class="text point-text-strategies">
-              By <span class="name-accent">Wahid Ari</span> | 03 March 2019
-            </p>
-            <h3 class="subtitle sbttitle-strategies">
-              Increasing Prosperity With Positive Thinking
-            </h3>
-          </li>
-
-          <li>
-            <img
-              src="./images/ink-people-buildings.jpg"
-              alt="people-standing-in-front-of-the-window"
-              width="350"
-              height="185"
-            />
-            <p class="text point-text-strategies">
-              By <span class="name-accent">Wahid Ari</span> | 03 March 2019
-            </p>
-            <h3 class="subtitle sbttitle-strategies">
-              Motivation Is The First Step To Success
-            </h3>
-          </li>
-
-          <li>
-            <img
-              src="./images/glass-buildings.jpg"
-              alt="skyscrapers"
-              width="350"
-              height="185"
-            />
-            <p class="text point-text-strategies">
-              By <span class="name-accent">Wahid Ari</span> | 03 March 2019
-            </p>
-            <h3 class="subtitle sbttitle-strategies">
-              Success Steps For Your Personal Or Business
-            </h3>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title title-strategies">Contents Strategies</h2>
+          <p class="text text-strategies">
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+          </p>
+          <ul>
+            <li>
+              <img
+                src="./images/papers-laptops.jpg"
+                alt="working-process"
+                width="350"
+                height="185"
+              />
+              <p class="text point-text-strategies">
+                By <span class="name-accent">Wahid Ari</span> | 03 March 2019
+              </p>
+              <h3 class="subtitle sbttitle-strategies">
+                Increasing Prosperity With Positive Thinking
+              </h3>
+            </li>
+            <li>
+              <img
+                src="./images/ink-people-buildings.jpg"
+                alt="people-standing-in-front-of-the-window"
+                width="350"
+                height="185"
+              />
+              <p class="text point-text-strategies">
+                By <span class="name-accent">Wahid Ari</span> | 03 March 2019
+              </p>
+              <h3 class="subtitle sbttitle-strategies">
+                Motivation Is The First Step To Success
+              </h3>
+            </li>
+            <li>
+              <img
+                src="./images/glass-buildings.jpg"
+                alt="skyscrapers"
+                width="350"
+                height="185"
+              />
+              <p class="text point-text-strategies">
+                By <span class="name-accent">Wahid Ari</span> | 03 March 2019
+              </p>
+              <h3 class="subtitle sbttitle-strategies">
+                Success Steps For Your Personal Or Business
+              </h3>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- #endregion Strategies -->
@@ -369,55 +393,54 @@
       <!-- #region Price -->
 
       <section class="price-section">
-        <h2 class="section-titile title-price">Price Table</h2>
-        <p class="text text-price">We offer competitive price</p>
-
-        <div class="price-cards">
-          <h3 class="title-card">Free</h3>
-          <p class="tetx text-card">Brief price description</p>
-          <p class="price-number-card">0</p>
-          <p class="dollar-sign">&#36;</p>
-          <p class="month">Per / month</p>
-          <ul class="explain-price-items">
-            <li>Only 2 Operators</li>
-            <li>Notifications</li>
-            <li>Landing Pages</li>
-          </ul>
-          <button type="button" class="btn btn-price-order-now">
-            Order Now
-          </button>
-        </div>
-
-        <div class="price ce=ards">
-          <h3 class="title-card">Standard</h3>
-          <p class="tetx text-card">Brief price description</p>
-          <p class="price-number-card">5</p>
-          <p class="dollar-sign">&#36;</p>
-          <p class="month">Per / month</p>
-          <ul class="explain-price-items">
-            <li>5+ Operators</li>
-            <li>Notifications</li>
-            <li>Landing Pages</li>
-          </ul>
-          <button type="button" class="btn btn-price-order-now">
-            Order Now
-          </button>
-        </div>
-
-        <div class="price ce=ards">
-          <h3 class="title-card">Premium</h3>
-          <p class="tetx text-card">Brief price description</p>
-          <p class="price-number-card">10</p>
-          <p class="dollar-sign">&#36;</p>
-          <p class="month">Per / month</p>
-          <ul class="explain-price-items">
-            <li>10+ Operators</li>
-            <li>Notifications</li>
-            <li>Landing Pages</li>
-          </ul>
-          <button type="button" class="btn btn-price-order-now">
-            Order Now
-          </button>
+        <div class="container">
+          <h2 class="section-titile title-price">Price Table</h2>
+          <p class="text text-price">We offer competitive price</p>
+          <div class="price-cards">
+            <h3 class="title-card">Free</h3>
+            <p class="tetx text-card">Brief price description</p>
+            <p class="price-number-card">0</p>
+            <p class="dollar-sign">&#36;</p>
+            <p class="month">Per / month</p>
+            <ul class="explain-price-items">
+              <li>Only 2 Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button" class="btn btn-price-order-now">
+              Order Now
+            </button>
+          </div>
+          <div class="price ce=ards">
+            <h3 class="title-card">Standard</h3>
+            <p class="tetx text-card">Brief price description</p>
+            <p class="price-number-card">5</p>
+            <p class="dollar-sign">&#36;</p>
+            <p class="month">Per / month</p>
+            <ul class="explain-price-items">
+              <li>5+ Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button" class="btn btn-price-order-now">
+              Order Now
+            </button>
+          </div>
+          <div class="price ce=ards">
+            <h3 class="title-card">Premium</h3>
+            <p class="tetx text-card">Brief price description</p>
+            <p class="price-number-card">10</p>
+            <p class="dollar-sign">&#36;</p>
+            <p class="month">Per / month</p>
+            <ul class="explain-price-items">
+              <li>10+ Operators</li>
+              <li>Notifications</li>
+              <li>Landing Pages</li>
+            </ul>
+            <button type="button" class="btn btn-price-order-now">
+              Order Now
+            </button>
+          </div>
         </div>
       </section>
 
@@ -425,97 +448,101 @@
 
       <!-- #region Clients say -->
       <section class="section cliets-say-section">
-        <h2 class="section-title title-cliets-say-sectoin">What Clients Say</h2>
-        <p class="text text-cliets-say-section">
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
-        </p>
-        <ul>
-          <li class="user-card">
-            <ul>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-            </ul>
-            <p class="text comment">
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img src="./images/young-girl.jpg" alt="young girl" />
-            <ul>
-              <li class="user-name">Wahid Ari</li>
-              <li class="profession">Designer</li>
-            </ul>
-          </li>
-          <li class="user-card">
-            <ul>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-            </ul>
-            <p class="text comment">
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img src="./images/young-boy.jpg" alt="young boy" />
-            <ul>
-              <li class="user-name">Wahid Ari</li>
-              <li class="profession">Designer</li>
-            </ul>
-          </li>
-          <li class="user-card">
-            <ul>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-            </ul>
-            <p class="text comment">
-              Product helps you see how many more days you need to work to reach
-              your financial goal.
-            </p>
-            <img src="./images/man.jpg" alt="man" />
-            <ul>
-              <li class="user-name">Wahid Ari</li>
-              <li class="profession">Designer</li>
-            </ul>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="section-title title-cliets-say-sectoin">
+            What Clients Say
+          </h2>
+          <p class="text text-cliets-say-section">
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+          <ul>
+            <li class="user-card">
+              <ul>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+              </ul>
+              <p class="text comment">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <img src="./images/young-girl.jpg" alt="young girl" />
+              <ul>
+                <li class="user-name">Wahid Ari</li>
+                <li class="profession">Designer</li>
+              </ul>
+            </li>
+            <li class="user-card">
+              <ul>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+              </ul>
+              <p class="text comment">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <img src="./images/young-boy.jpg" alt="young boy" />
+              <ul>
+                <li class="user-name">Wahid Ari</li>
+                <li class="profession">Designer</li>
+              </ul>
+            </li>
+            <li class="user-card">
+              <ul>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+                <li>
+                  <svg></svg>
+                </li>
+              </ul>
+              <p class="text comment">
+                Product helps you see how many more days you need to work to
+                reach your financial goal.
+              </p>
+              <img src="./images/man.jpg" alt="man" />
+              <ul>
+                <li class="user-name">Wahid Ari</li>
+                <li class="profession">Designer</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
 
         <!-- <div>
           <h2></h2>
@@ -525,87 +552,91 @@
       </section>
 
       <!-- #endregion Clients say -->
-    </main>
 
-    <!-- #region Join 100 -->
-    <section class="section join-100-section">
-      <div class="card-join-100-section">
-        <h2 class="section-title title-join-100-section">
-          Join 100 Compannies who boost their business with Product
-        </h2>
-        <img
-          src="./images/screen-chart.jpg"
-          alt="chrats and diagrams"
-          width="351"
-          height="331"
-        />
-        <button type="button" class="btn btn-get-this">Get This</button>
-      </div>
-    </section>
-    <!-- #endregion Join hundred -->
-
-    <footer class="bottom-page">
-      <h2 hidden>footer</h2>
-
-      <div class="container bottom-page">
-        <div>
-          <a href="./index.html" class="product-logo">
-            <img src="./images/logo.svg" alt="Logo" width="40" height="36" />
-            Product
-          </a>
-
-          <div class="container bottom-social-media-container">
-            <ul>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-              <li>
-                <svg></svg>
-              </li>
-            </ul>
+      <!-- #region Join 100 -->
+      <section class="section join-100-section">
+        <div class="container">
+          <div class="card-join-100-section">
+            <h2 class="section-title title-join-100-section">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <img
+              src="./images/screen-chart.jpg"
+              alt="chrats and diagrams"
+              width="351"
+              height="331"
+            />
+            <button type="button" class="btn btn-get-this">Get This</button>
           </div>
         </div>
+      </section>
+      <!-- #endregion Join hundred -->
+    </main>
 
-        <div class="container bottom-nav-container">
-          <h3 class="bottom-nav-title">Resource</h3>
-
-          <nav class="nav bottom-nav">
-            <ul class="bottom-nav-list">
-              <li><a href="./index.html">About Us</a></li>
-              <li><a href="./index.html">Blog</a></li>
-              <li><a href="./index.html">Contact</a></li>
-              <li><a href="./index.html">FAQ</a></li>
-            </ul>
-          </nav>
+    <footer class="bottom-page">
+      <div class="container">
+        <div>
+          <h2 hidden>footer</h2>
+          <div class="container bottom-page">
+            <div>
+              <a href="./index.html" class="product-logo">
+                <img
+                  src="./images/logo.svg"
+                  alt="Logo"
+                  width="40"
+                  height="36"
+                />
+                Product
+              </a>
+              <div class="container bottom-social-media-container">
+                <ul>
+                  <li>
+                    <svg></svg>
+                  </li>
+                  <li>
+                    <svg></svg>
+                  </li>
+                  <li>
+                    <svg></svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="container bottom-nav-container">
+              <h3 class="bottom-nav-title">Resource</h3>
+              <nav class="nav bottom-nav">
+                <ul class="bottom-nav-list">
+                  <li><a href="./index.html">About Us</a></li>
+                  <li><a href="./index.html">Blog</a></li>
+                  <li><a href="./index.html">Contact</a></li>
+                  <li><a href="./index.html">FAQ</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="container bottom-nav-container-second">
+              <h3 class="bottom-nav-title-second">Legal Stuff</h3>
+              <nav class="nav bottom-nav-second">
+                <ul class="bottom-nav-list-second">
+                  <li><a href="./index.html">Disclaimer</a></li>
+                  <li><a href="./index.html">Financing</a></li>
+                  <li><a href="./index.html">Privacy Policy</a></li>
+                </ul>
+              </nav>
+            </div>
+            <p class="text bottom-text-deal">
+              knowing you're always on the best energy deal.
+            </p>
+            <form>
+              <input type="number" name="x" id="x" />
+              <button type="submit" class="btn btn-bottom-sign-up">
+                Sign up Now
+              </button>
+            </form>
+            <p class="text end-text">
+              Made With Love By Figmaland All Right Reserved
+            </p>
+          </div>
         </div>
-
-        <div class="container bottom-nav-container-second">
-          <h3 class="bottom-nav-title-second">Legal Stuff</h3>
-          <nav class="nav bottom-nav-second">
-            <ul class="bottom-nav-list-second">
-              <li><a href="./index.html">Disclaimer</a></li>
-              <li><a href="./index.html">Financing</a></li>
-              <li><a href="./index.html">Privacy Policy</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <p class="text bottom-text-deal">
-          knowing you're always on the best energy deal.
-        </p>
-        <form>
-          <input type="number" name="x" id="x" />
-          <button type="submit" class="btn btn-bottom-sign-up">
-            Sign up Now
-          </button>
-        </form>
-
-        <p class="text end-text">
-          Made With Love By Figmaland All Right Reserved
-        </p>
       </div>
     </footer>
   </body>
