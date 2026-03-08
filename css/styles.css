@@ -23,6 +23,7 @@ ol {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 button {
@@ -43,10 +44,11 @@ button {
   line-height: 150%;
 }
 
+/*  it is mistake mb, i can't remember what it was made for
 svg {
   height: 32px;
   width: 32px;
-}
+} */
 
 img {
   display: block;
@@ -69,6 +71,7 @@ header a {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .product-logo {
@@ -76,6 +79,9 @@ header a {
   font-size: 30px;
   line-height: 93%;
   color: #173a56;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .nav-list {
@@ -83,6 +89,16 @@ header a {
   font-size: 16px;
   line-height: 175%;
   display: flex;
+  gap: 30px;
+}
+
+.nav-list li {
+  padding: 26px 0;
+}
+
+.header-btn {
+  display: flex;
+  gap: 21px;
 }
 
 .btn-signin-header {

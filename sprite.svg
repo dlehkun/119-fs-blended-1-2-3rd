@@ -6,5 +6,21 @@
       <path fill="#035b81" d="M28.894 0c4.432 4.38 6.662 9.812 6.662 16.046 0 6.136-2.14 11.564-6.499 15.954l-4.151-4.015c3.247-3.27 4.838-7.236 4.838-11.939 0-4.75-1.645-8.713-4.962-11.992L28.895.001z" style="fill:var(--color3, #035b81)"/>
       <path fill="#028e37" d="M0 23.454h5.57v4.113c0 1.516-1.253 2.757-2.785 2.757S0 29.083 0 27.567v-4.113z" style="fill:var(--color4, #028e37)"/>
     </symbol>
+<symbol id="icon-1" viewBox="0 0 28 32">
+      <path fill="#02897a" d="M10 0h8c5 0 10 4 10 10v8c0 5-5 10-10 10h-8C4 28 0 23 0 18v-8C0 4 4 0 10 0z" style="fill:var(--color1, #02897a)"/>
+      <path fill="#fff" d="m17 15-5-5h-1v7h1l1-1 1 2h1l1-1-1-2h2z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-2" viewBox="0 0 28 32">
+      <path fill="#4d8dff" d="M10 0h8c5 0 10 4 10 10v8c0 5-5 10-10 10h-8C4 28 0 23 0 18v-8C0 4 4 0 10 0z" style="fill:var(--color3, #4d8dff)"/>
+      <path fill="#fff" d="m14 13 1 1 1-1-2-2-2 2v2l-1 1v-2H9v1a2 2 0 0 0 4 1v-3l1-1v1zm3 1v2h-1v-2l-1 1-1-1v2l2 1c1 0 2 0 2-2v-1h-1z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-3" viewBox="0 0 28 32">
+      <path fill="#740a76" d="M10 0h8c5 0 10 4 10 10v8c0 5-5 10-10 10h-8C4 28 0 23 0 18v-8C0 4 4 0 10 0z" style="fill:var(--color4, #740a76)"/>
+      <path fill="#fff" d="m14 18 3-3 1-2c0-2-1-2-2-2l-2 1-2-1c-1 0-2 0-2 2l1 2 3 3z" style="fill:var(--color2, #fff)"/>
+    </symbol>
+    <symbol id="icon-4" viewBox="0 0 32 32">
+      <path fill="#f03e3d" d="M11 0h10c6 0 11 5 11 11v10c0 6-5 11-11 11H11C5 32 0 27 0 21V11C0 5 5 0 11 0z" style="fill:var(--color5, #f03e3d)"/>
+      <path fill="#fff" d="M19 12h1v-1h-8v1h1c0 2 0 3 2 4-2 1-2 2-2 4h-1v1h8v-1h-1l-2-4 2-4zm0 0-1 2h-4l-1-2h6zm-1 7h-4l1-2h2l1 2z" style="fill:var(--color2, #fff)"/>
+    </symbol>
   </defs>
 </svg>
