@@ -1,4 +1,4 @@
-/*  BASE STYLES */
+/*  #region BASE STYLES */
 
 *,
 *::before,
@@ -60,9 +60,9 @@ img {
   margin: 0 auto;
 }
 
-/*  BASE STYLES */
+/* #endregion BASE STYLES */
 
-/* header */
+/* #region header */
 
 header a {
   color: var(--main-color);
@@ -127,15 +127,28 @@ header a {
   height: 42px;
   width: 113px;
 }
-/* header */
+/* #endregion header */
 
-/* SECTION HERO */
+/* #region SECTION HERO */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+
+  max-width: 1110px;
+  gap: 33px;
+}
+
+.hero-interactive {
+  min-width: 467px;
+}
 
 .title-hero {
   color: var(--main-color);
   font-weight: 700;
   font-size: 40px;
   line-height: 150%;
+  margin: 0 0 18px 0;
 }
 
 .text-hero {
@@ -143,6 +156,14 @@ header a {
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
+  margin-bottom: 45px;
+  padding-bottom: 11px;
+}
+
+.hero-btn-link {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .btn-getstart {
@@ -150,6 +171,9 @@ header a {
   font-size: 16px;
   color: #fff;
   background-color: var(--accent-color);
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
 }
 
 .link-watchtvid {
@@ -157,10 +181,13 @@ header a {
   text-decoration: underline;
   font-weight: 600;
   font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
 }
-/* SECTION HERO */
+/* #endregion SECTION HERO */
 
-/* section For You */
+/* #region section For You */
 
 .title-for-you {
   font-weight: 700;
@@ -189,8 +216,9 @@ header a {
   color: #fff;
   background-color: var(--accent-color);
 }
+/* #endregion section For You */
 
-/* section Management */
+/* #region section Management */
 
 .title-management {
   font-weight: 700;
@@ -263,7 +291,9 @@ header a {
   line-height: 162%;
 }
 
-/* section Easy Process */
+/* #endregion section Management */
+
+/* #region section Easy Process */
 
 .title-easy-process {
   color: var(--main-color);
@@ -297,7 +327,9 @@ header a {
   background-color: var(--accent-color);
 }
 
-/* section Strategies */
+/* #endregion section Easy Process */
+
+/* #region section Strategies */
 
 .title-strategies {
   color: var(--main-color);
@@ -330,7 +362,9 @@ header a {
   line-height: 167%;
 }
 
-/* section Price */
+/* #endregion section Strategies */
+
+/* #region section Price */
 
 .title-price {
   color: var(--main-color);
@@ -406,7 +440,9 @@ header a {
   background-color: var(--accent-color);
 }
 
-/* SLIENTS SAY */
+/* #endregion section Price */
+
+/* #region CLIENTS SAY */
 
 .title-cliets-say-sectoin {
   color: var(--main-color);
@@ -448,7 +484,10 @@ header a {
   letter-spacing: 0.01em;
   color: #252b42;
 }
-/* JOIN HUNDRED */
+
+/* #endregion CLIENTS SAY */
+
+/* #region JOIN HUNDRED */
 
 .card-join-100-section {
   border-radius: 32px;
@@ -475,7 +514,9 @@ header a {
   border-radius: 8px;
 }
 
-/* Footer */
+/* #endregion JOIN HUNDRED */
+
+/* #region Footer */
 
 footer a {
   color: var(--main-color);
@@ -540,3 +581,5 @@ footer a {
   font-size: 16px;
   line-height: 187%;
 }
+
+/* #endregion Footer */
