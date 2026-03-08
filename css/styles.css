@@ -71,7 +71,6 @@ header a {
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .product-logo {
@@ -84,21 +83,26 @@ header a {
   gap: 16px;
 }
 
-.nav-list {
+.header-nav-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
   display: flex;
   gap: 30px;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding-right: 73px;
 }
 
-.nav-list li {
+.header-nav-list li {
   padding: 26px 0;
 }
 
 .header-btn {
   display: flex;
   gap: 21px;
+  align-items: center;
 }
 
 .btn-signin-header {
@@ -109,6 +113,8 @@ header a {
   color: #173a56;
   border-radius: 4px;
   border: 1px solid #bcd0e5;
+  height: 42px;
+  width: 105px;
 }
 
 .btn-signup-header {
@@ -118,6 +124,8 @@ header a {
   text-align: center;
   color: #fff;
   border-radius: 4px;
+  height: 42px;
+  width: 113px;
 }
 /* header */
 
