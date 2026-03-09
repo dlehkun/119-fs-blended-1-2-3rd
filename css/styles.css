@@ -26,6 +26,10 @@ a {
   cursor: pointer;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   border: none;
   border-radius: 4px;
@@ -194,6 +198,10 @@ header a {
 
 /* #region section For You */
 
+.for-you-container {
+  padding-bottom: 50px;
+}
+
 .title-for-you {
   font-weight: 700;
   font-size: 32px;
@@ -249,10 +257,34 @@ header a {
 
 /* #region section Management */
 
+.management-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
+
+.left-side-management {
+  max-width: 486px;
+}
+
+.left-side-management li:not(:last-child) {
+  margin: 0 0 30px 0;
+}
+
+.left-side-management h3 {
+  margin: 0 0 12px 0;
+}
+
+.left-side-management h3 {
+  margin: 0 0 12px 0;
+}
+
 .title-management {
   font-weight: 700;
   font-size: 32px;
   color: var(--main-color);
+  margin: 0 0 18px 0;
 }
 
 .text-management {
