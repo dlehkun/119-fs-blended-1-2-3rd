@@ -261,7 +261,7 @@ header a {
   display: flex;
   justify-content: space-between;
   padding-top: 82px;
-  padding-bottom: 82px;
+  align-items: center;
 }
 
 .left-side-management {
@@ -294,6 +294,26 @@ header a {
   color: var(--main-color);
 }
 
+/* #endregion section Management */
+
+.customer-container {
+  padding-top: 68px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.right-side-support {
+  max-width: 452px;
+}
+
+.right-side-support ul > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .text-support {
   font-weight: 600;
   font-size: 16px;
@@ -317,6 +337,10 @@ header a {
   font-weight: 400;
   font-size: 16px;
   line-height: 162%;
+}
+
+.collaborative-container {
+  padding-top: 23px;
 }
 
 .text-collaborative {
@@ -352,7 +376,11 @@ header a {
   line-height: 162%;
 }
 
-/* #endregion section Management */
+.box-customer {
+  background-color: #d9d9d9;
+  height: 20px;
+  width: 100%;
+}
 
 /* #region section Easy Process */
 
