@@ -308,22 +308,19 @@ header a {
   max-width: 452px;
 }
 
-.right-side-support ul > li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .text-support {
   font-weight: 600;
   font-size: 16px;
   color: var(--main-color);
+  margin-bottom: 8px;
 }
 
-.sbtitle-support {
+.title-support {
   color: var(--main-color);
   font-weight: 700;
   font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 25px;
 }
 
 .scnd-text-support {
@@ -331,7 +328,21 @@ header a {
   font-weight: 400;
   font-size: 16px;
   line-height: 162%;
+  margin-bottom: 30px;
 }
+
+.right-side-support ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.right-side-support ul > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .point-text-support {
   color: var(--main-color);
   font-weight: 400;
