@@ -63,6 +63,10 @@ img {
   max-width: 100%;
 }
 
+svg {
+  flex-shrink: 0;
+}
+
 .container {
   max-width: 1110px;
   padding: 0 20px;
@@ -301,6 +305,8 @@ header a {
 
 /* #endregion section Management */
 
+/* #region section Customer Support */
+
 .customer-container {
   padding-top: 68px;
   padding-bottom: 50px;
@@ -355,20 +361,41 @@ header a {
   line-height: 162%;
 }
 
+.box-customer {
+  background-color: #d9d9d9;
+  height: 20px;
+  width: 100%;
+}
+
+/* #endregion section Customer Support */
+
+/* #region section Collaborative */
+
 .collaborative-container {
   padding-top: 23px;
+  display: flex;
+  gap: 84px;
+  justify-content: space-between;
+}
+
+.left-side-collaborative {
+  max-width: 486px;
+  padding-top: 26px;
+  height: auto;
 }
 
 .text-collaborative {
   color: var(--main-color);
   font-weight: 600;
   font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .title-collaborative {
   color: var(--main-color);
   font-weight: 700;
   font-size: 32px;
+  margin-bottom: 25px;
 }
 
 .scnd-text-collaborative {
@@ -376,6 +403,11 @@ header a {
   font-weight: 400;
   font-size: 16px;
   line-height: 162%;
+  margin-bottom: 35px;
+}
+
+.left-side-collaborative ul li:first-child {
+  margin-bottom: 25px;
 }
 
 .sbtitle-collaborative {
@@ -383,6 +415,7 @@ header a {
   font-weight: 600;
   font-size: 16px;
   line-height: 162%;
+  margin-bottom: 12px;
 }
 
 .point-text-collaborative {
@@ -392,11 +425,7 @@ header a {
   line-height: 162%;
 }
 
-.box-customer {
-  background-color: #d9d9d9;
-  height: 20px;
-  width: 100%;
-}
+/* #endregion section Collaborative */
 
 /* #region section Easy Process */
 
