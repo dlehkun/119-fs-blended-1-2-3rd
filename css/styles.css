@@ -53,8 +53,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin: 0;
 }
 
@@ -718,12 +717,19 @@ header a {
 
 /* #region CLIENTS SAY */
 
+.clients-container {
+  padding-top: 100px;
+  margin: 10px;
+  margin: 0 auto;
+}
+
 .title-cliets-say-sectoin {
   color: var(--main-color);
   font-weight: 700;
   font-size: 32px;
   line-height: 178%;
   letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .text-cliets-say-section {
@@ -733,7 +739,34 @@ header a {
   line-height: 175%;
   letter-spacing: 0.01em;
   text-align: center;
+  margin-bottom: 40px;
 }
+
+.user-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.user-card {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding-top: 28px;
+  padding-left: 28px;
+  padding-bottom: 28px;
+  flex-basis: calc((100% - 128px) / 3);
+}
+
+.user-card ul {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+/* .star-icon {
+  fill: transparent;
+  stroke: #f3cd03;
+  stroke-width: 4px;
+} */
 
 .text-comment {
   font-weight: 400;
@@ -741,6 +774,23 @@ header a {
   line-height: 175%;
   letter-spacing: 0.01em;
   color: #737373;
+  margin-bottom: 16px;
+}
+
+.commentator {
+  display: flex;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.commentator img {
+  flex-shrink: 0;
+}
+
+.commentator ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .user-name {
