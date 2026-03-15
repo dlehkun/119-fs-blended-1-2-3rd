@@ -68,6 +68,7 @@ svg {
 }
 
 .container {
+  box-sizing: content-box;
   max-width: 1110px;
   padding: 0 20px;
   margin: 0 auto;
@@ -512,10 +513,15 @@ header a {
 
 /* #region section Strategies */
 
+.strategies-container {
+  padding-top: 100px;
+}
+
 .title-strategies {
   color: var(--main-color);
   font-weight: 700;
   font-size: 34px;
+  margin-bottom: 10px;
 }
 
 .text-strategies {
@@ -523,6 +529,35 @@ header a {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
+  margin-bottom: 40px;
+}
+
+.strategies-container ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strategies-container ul li {
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  padding-bottom: 40px;
+  flex-basis: calc((100% - 60px) / 3);
+  min-width: 350px;
+  transition: transform 250ms ease-in-out;
+}
+
+.strategies-container ul li:hover,
+.strategies-container ul li:focus {
+  transform: scale(1.1);
+}
+
+.strategies-container ul li:hover .sbttitle-strategies,
+.strategies-container ul li:focus .sbttitle-strategies {
+  color: var(--accent-color);
+}
+
+.strategies-container ul li img {
+  margin-bottom: 24px;
 }
 
 .point-text-strategies {
@@ -530,6 +565,8 @@ header a {
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
+  padding-left: 24px;
+  margin-bottom: 12px;
 }
 
 .name-accent {
@@ -541,11 +578,16 @@ header a {
   font-weight: 700;
   font-size: 24px;
   line-height: 167%;
+  padding-left: 27px;
 }
 
 /* #endregion section Strategies */
 
 /* #region section Price */
+
+.price-container {
+  padding-top: 171px;
+}
 
 .title-price {
   color: var(--main-color);
