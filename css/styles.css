@@ -68,8 +68,8 @@ svg {
 }
 
 .container {
-  box-sizing: content-box;
-  max-width: 1110px;
+  /* box-sizing: content-box; */
+  max-width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -592,14 +592,29 @@ header a {
 .title-price {
   color: var(--main-color);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 167%;
+  text-align: center;
 }
 
 .text-price {
   color: var(--main-color);
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-card {
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .title-card {
@@ -607,18 +622,31 @@ header a {
   font-weight: 700;
   font-size: 24px;
   line-height: 167%;
+  text-align: center;
+  margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .text-card {
-  font-family: "Monserrat" sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--main-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 250%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 16px;
 }
 
 .price-number-card {
-  font-family: "Monserrat" sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 700;
   font-size: 76px;
   line-height: 132%;
@@ -637,7 +665,7 @@ header a {
 }
 
 .month {
-  font-family: "Monserrat" sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 119%;
@@ -647,20 +675,24 @@ header a {
 
 .explain-price-items {
   color: var(--main-color);
-  font-family: "Monserrat" sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 137%;
+  line-height: 138%;
   letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .btn-price-order-now {
-  font-family: "Monserrat" sans-serif;
+  font-family: "Monserrat", sans-serif;
   color: #fff;
   border-radius: 8px;
   width: 139px;
   height: 44px;
   background-color: var(--accent-color);
+  display: block;
+  margin: 0 auto;
 }
 
 /* #endregion section Price */
