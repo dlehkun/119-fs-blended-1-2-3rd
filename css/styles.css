@@ -734,7 +734,7 @@ header a {
 
 .text-cliets-say-section {
   color: var(--main-color);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 175%;
   letter-spacing: 0.01em;
@@ -813,8 +813,26 @@ header a {
 
 /* #region JOIN HUNDRED */
 
+.container-join {
+  padding-top: 100px;
+}
+
+.card-join-100-section {
+  background-color: var(--accent-color);
+  max-width: 968px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 10px;
+}
+
 .card-join-100-section {
   border-radius: 32px;
+}
+
+.left-side {
+  padding: 49px 0 56px 51px;
+  min-width: 510px;
 }
 
 .title-join-100-section {
@@ -822,10 +840,7 @@ header a {
   font-size: 32px;
   line-height: 151%;
   color: #fff;
-}
-
-.card-join-100-section {
-  background-color: var(--accent-color);
+  margin-bottom: 46px;
 }
 
 .btn-get-this {
@@ -838,13 +853,22 @@ header a {
   border-radius: 8px;
 }
 
+/* .container-join img {
+  padding-right: 30px;
+} */
+
 /* #endregion JOIN HUNDRED */
 
 /* #region Footer */
 
+.footer-container {
+  padding-top: 100px;
+}
+
 footer a {
   color: var(--main-color);
 }
+
 .bottom-nav-title {
   color: var(--main-color);
   font-weight: 500;
